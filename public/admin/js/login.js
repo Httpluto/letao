@@ -53,7 +53,7 @@ $(function(){
 
         $.ajax({
             type: 'post',
-            url: 'employee/employeeLogin',
+            url: '/employee/employeeLogin',
             data: $("form").serialize(),
             success: function(info){
                 // console.log(info);
